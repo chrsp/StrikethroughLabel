@@ -7,30 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A65D25A9243D2F8900532470 /* StrikethroughLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A65D25A7243D2F8900532470 /* StrikethroughLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A65D25FD243D302D00532470 /* StrikethroughLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D25FB243D302D00532470 /* StrikethroughLabel.swift */; };
+		A65D2651243D438900532470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D2650243D438900532470 /* AppDelegate.swift */; };
+		A65D2653243D438900532470 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D2652243D438900532470 /* SceneDelegate.swift */; };
+		A65D2655243D438900532470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D2654243D438900532470 /* ViewController.swift */; };
+		A65D2658243D438900532470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65D2656243D438900532470 /* Main.storyboard */; };
+		A65D265A243D438C00532470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65D2659243D438C00532470 /* Assets.xcassets */; };
+		A65D265D243D438C00532470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65D265B243D438C00532470 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A65D2668243D438D00532470 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A65D2664243D438C00532470 /* StrikethroughLabelSample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A65D264D243D438900532470;
-			remoteInfo = StrikethroughLabelSample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		A65D25A4243D2F8900532470 /* StrikethroughLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrikethroughLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A65D25A7243D2F8900532470 /* StrikethroughLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrikethroughLabel.h; sourceTree = "<group>"; };
-		A65D25A8243D2F8900532470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A65D25FB243D302D00532470 /* StrikethroughLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikethroughLabel.swift; sourceTree = "<group>"; };
-		A65D2664243D438C00532470 /* StrikethroughLabelSample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StrikethroughLabelSample.xcodeproj; path = StrikethroughLabelSample/StrikethroughLabelSample.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A65D264D243D438900532470 /* StrikethroughLabelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrikethroughLabelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65D2650243D438900532470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A65D2652243D438900532470 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A65D2654243D438900532470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A65D2657243D438900532470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65D2659243D438C00532470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65D265C243D438C00532470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A65D265E243D438C00532470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A65D25A1243D2F8900532470 /* Frameworks */ = {
+		A65D264A243D438900532470 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,89 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A65D259A243D2F8900532470 = {
+		A65D2644243D438900532470 = {
 			isa = PBXGroup;
 			children = (
-				A65D25A6243D2F8900532470 /* StrikethroughLabel */,
-				A65D25A5243D2F8900532470 /* Products */,
+				A65D264F243D438900532470 /* StrikethroughLabelSample */,
+				A65D264E243D438900532470 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A65D25A5243D2F8900532470 /* Products */ = {
+		A65D264E243D438900532470 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A65D25A4243D2F8900532470 /* StrikethroughLabel.framework */,
+				A65D264D243D438900532470 /* StrikethroughLabelSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A65D25A6243D2F8900532470 /* StrikethroughLabel */ = {
+		A65D264F243D438900532470 /* StrikethroughLabelSample */ = {
 			isa = PBXGroup;
 			children = (
-				A65D2664243D438C00532470 /* StrikethroughLabelSample.xcodeproj */,
-				A65D25A7243D2F8900532470 /* StrikethroughLabel.h */,
-				A65D25A8243D2F8900532470 /* Info.plist */,
-				A65D25FB243D302D00532470 /* StrikethroughLabel.swift */,
+				A65D2650243D438900532470 /* AppDelegate.swift */,
+				A65D2652243D438900532470 /* SceneDelegate.swift */,
+				A65D2654243D438900532470 /* ViewController.swift */,
+				A65D2656243D438900532470 /* Main.storyboard */,
+				A65D2659243D438C00532470 /* Assets.xcassets */,
+				A65D265B243D438C00532470 /* LaunchScreen.storyboard */,
+				A65D265E243D438C00532470 /* Info.plist */,
 			);
-			path = StrikethroughLabel;
-			sourceTree = "<group>";
-		};
-		A65D2665243D438C00532470 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A65D2669243D438D00532470 /* StrikethroughLabelSample.app */,
-			);
-			name = Products;
+			path = StrikethroughLabelSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		A65D259F243D2F8900532470 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A65D25A9243D2F8900532470 /* StrikethroughLabel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		A65D25A3243D2F8900532470 /* StrikethroughLabel */ = {
+		A65D264C243D438900532470 /* StrikethroughLabelSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A65D25AC243D2F8900532470 /* Build configuration list for PBXNativeTarget "StrikethroughLabel" */;
+			buildConfigurationList = A65D2661243D438C00532470 /* Build configuration list for PBXNativeTarget "StrikethroughLabelSample" */;
 			buildPhases = (
-				A65D259F243D2F8900532470 /* Headers */,
-				A65D25A0243D2F8900532470 /* Sources */,
-				A65D25A1243D2F8900532470 /* Frameworks */,
-				A65D25A2243D2F8900532470 /* Resources */,
+				A65D2649243D438900532470 /* Sources */,
+				A65D264A243D438900532470 /* Frameworks */,
+				A65D264B243D438900532470 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StrikethroughLabel;
-			productName = StrikethroughLabel;
-			productReference = A65D25A4243D2F8900532470 /* StrikethroughLabel.framework */;
-			productType = "com.apple.product-type.framework";
+			name = StrikethroughLabelSample;
+			productName = StrikethroughLabelSample;
+			productReference = A65D264D243D438900532470 /* StrikethroughLabelSample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A65D259B243D2F8900532470 /* Project object */ = {
+		A65D2645243D438900532470 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Charles Prado";
 				TargetAttributes = {
-					A65D25A3243D2F8900532470 = {
+					A65D264C243D438900532470 = {
 						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
 					};
 				};
 			};
-			buildConfigurationList = A65D259E243D2F8900532470 /* Build configuration list for PBXProject "StrikethroughLabel" */;
+			buildConfigurationList = A65D2648243D438900532470 /* Build configuration list for PBXProject "StrikethroughLabelSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,55 +111,63 @@
 				en,
 				Base,
 			);
-			mainGroup = A65D259A243D2F8900532470;
-			productRefGroup = A65D25A5243D2F8900532470 /* Products */;
+			mainGroup = A65D2644243D438900532470;
+			productRefGroup = A65D264E243D438900532470 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A65D2665243D438C00532470 /* Products */;
-					ProjectRef = A65D2664243D438C00532470 /* StrikethroughLabelSample.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				A65D25A3243D2F8900532470 /* StrikethroughLabel */,
+				A65D264C243D438900532470 /* StrikethroughLabelSample */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		A65D2669243D438D00532470 /* StrikethroughLabelSample.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = StrikethroughLabelSample.app;
-			remoteRef = A65D2668243D438D00532470 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		A65D25A2243D2F8900532470 /* Resources */ = {
+		A65D264B243D438900532470 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65D265D243D438C00532470 /* LaunchScreen.storyboard in Resources */,
+				A65D265A243D438C00532470 /* Assets.xcassets in Resources */,
+				A65D2658243D438900532470 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A65D25A0243D2F8900532470 /* Sources */ = {
+		A65D2649243D438900532470 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65D25FD243D302D00532470 /* StrikethroughLabel.swift in Sources */,
+				A65D2655243D438900532470 /* ViewController.swift in Sources */,
+				A65D2651243D438900532470 /* AppDelegate.swift in Sources */,
+				A65D2653243D438900532470 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A65D2656243D438900532470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65D2657243D438900532470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A65D265B243D438C00532470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65D265C243D438C00532470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		A65D25AA243D2F8900532470 /* Debug */ = {
+		A65D265F243D438C00532470 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +200,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -236,12 +224,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A65D25AB243D2F8900532470 /* Release */ = {
+		A65D2660243D438C00532470 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +260,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -293,57 +278,40 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A65D25AD243D2F8900532470 /* Debug */ = {
+		A65D2662243D438C00532470 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8D69GAM5D6;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = StrikethroughLabel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = StrikethroughLabelSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.charlesprado.StrikethroughLabel;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlesprado.StrikethroughLabelSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A65D25AE243D2F8900532470 /* Release */ = {
+		A65D2663243D438C00532470 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8D69GAM5D6;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = StrikethroughLabel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = StrikethroughLabelSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.charlesprado.StrikethroughLabel;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlesprado.StrikethroughLabelSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A65D259E243D2F8900532470 /* Build configuration list for PBXProject "StrikethroughLabel" */ = {
+		A65D2648243D438900532470 /* Build configuration list for PBXProject "StrikethroughLabelSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A65D25AA243D2F8900532470 /* Debug */,
-				A65D25AB243D2F8900532470 /* Release */,
+				A65D265F243D438C00532470 /* Debug */,
+				A65D2660243D438C00532470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A65D25AC243D2F8900532470 /* Build configuration list for PBXNativeTarget "StrikethroughLabel" */ = {
+		A65D2661243D438C00532470 /* Build configuration list for PBXNativeTarget "StrikethroughLabelSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A65D25AD243D2F8900532470 /* Debug */,
-				A65D25AE243D2F8900532470 /* Release */,
+				A65D2662243D438C00532470 /* Debug */,
+				A65D2663243D438C00532470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A65D259B243D2F8900532470 /* Project object */;
+	rootObject = A65D2645243D438900532470 /* Project object */;
 }
