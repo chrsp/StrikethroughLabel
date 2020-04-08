@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEJ-fr-09B">
-                                <rect key="frame" x="20" y="812" width="150" height="30"/>
+                                <rect key="frame" x="20" y="582" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="vPm-cT-7Vo"/>
                                 </constraints>
@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZW8-RZ-w0a">
-                                <rect key="frame" x="244" y="812" width="150" height="30"/>
+                                <rect key="frame" x="244" y="582" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="xaP-Mp-qc6"/>
                                 </constraints>
@@ -39,8 +39,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZW8-RZ-w0a" secondAttribute="trailing" constant="20" id="HwP-Zv-Qu2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bEJ-fr-09B" secondAttribute="bottom" constant="20" id="T2t-GU-0IA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZW8-RZ-w0a" secondAttribute="bottom" constant="20" id="fyh-ie-KNZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bEJ-fr-09B" secondAttribute="bottom" constant="250" id="T2t-GU-0IA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZW8-RZ-w0a" secondAttribute="bottom" constant="250" id="fyh-ie-KNZ"/>
                             <constraint firstItem="bEJ-fr-09B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yjg-CJ-BPU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
