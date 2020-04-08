@@ -1,5 +1,5 @@
 # HidableStepper
-StrithroughLabel provides a easy way to animates strikethrough effect in a label using bezier path animation.
+StrithroughLabel provides an easy way to animates strikethrough effect in a label using bezier path animation.
 
 ![](Resources/demo.gif)
 
