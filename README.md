@@ -1,10 +1,10 @@
-# StrithroughLabel
-StrithroughLabel provides an easy way to animates strikethrough effect in a label using bezier path animation.
+# StrikethroughLabel
+StrikethroughLabel provides an easy way to animates strikethrough effect in a label using bezier path animation.
 
 ![](Resources/demo.gif)
 
 #### Version 0.0.1
-- **April, 2020** - StrithroughLabel 🥳
+- **April, 2020** - StrikethroughLabel 🥳
 
 ## Installation
 ###  CocoaPods
